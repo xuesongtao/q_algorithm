@@ -2,6 +2,6 @@
 
 export GOPATH=$PWD
 echo $GO_PATH
-go install gen_table
-go install gen_feng_table
-go install mjlib_test
+go run src/gen_table/gen_table.go
+go run src/gen_feng_table/gen_feng_table.go
+go run src/mjlib_test/mjlib_test.go
